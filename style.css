@@ -1,31 +1,26 @@
-body {
+body,
+html,
+* {
     background-color: #a2abb5 ;
-    font-size: 12px;
+    font-size: 62.5%px;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+
+
+
+
 .card {
-    height: 50vh;
-    width: 27vw;
-    background-color: rgb(170, 231, 255);
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-between;
-    margin: 1rem auto;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 3rem;
+    background-color: lightpink;
+    padding: 3%;
 
 }
 
-.card-title {
-    font-size: 2.2rem;
-    margin: .5rem 0;
-
-
-}
-
-.card.img {
-    width: 100%;
-
-}
