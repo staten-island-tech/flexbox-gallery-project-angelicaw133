@@ -2,25 +2,29 @@ body,
 html,
 * {
     background-color: #a2abb5 ;
-    font-size: 62.5%px;
+    font-size: 10px;
     box-sizing: border-box;
-    margin: 0;
+    margin: 20px;
     padding: 0;
 }
 
-
-
-
-
 .card {
+    height: 30vh;
+    width: 27vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
-    flex-wrap: wrap;
+    flex-direction: column;
     font-size: 3rem;
     background-color: lightpink;
-    padding: 3%;
+}
 
+.card-title {
+    font-size: 2.2rem;
+    margin: .5rem 0;
+}
+.img {
+    width: 100%;
 }
 
