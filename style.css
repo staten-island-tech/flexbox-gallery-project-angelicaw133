@@ -1,7 +1,6 @@
 body,
 html,
 * {
-    background-color: #a2abb5 ;
     font-size: 62.5%;
     box-sizing: border-box;
     margin: 0;
@@ -9,8 +8,9 @@ html,
 }
 
 .container {
+    background-color: #a2abb5 ;
     display: flex;
-   justify-content: space-evenly;
+   justify-content: space-between;
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
@@ -34,20 +34,18 @@ h1  {
  padding: 2%;
  margin: 1.5rem;
  display: flex;
-
 }
 
-.card-title {
+h3 {
     font-size: 3.0rem;
     align-items: center;
     text-align: center;
-  
+    background-color: #a2abb5;
 }
 
 .img {
     width: 80%;
     max-height: 25rem;
-    justify-content: center;
-    align-content: end;
+
 }
 
