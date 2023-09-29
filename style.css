@@ -48,11 +48,7 @@ h1  {
         transform: translateY(0);
 
     }
-    100% {
-       left: 100%;
-       top: 100%;
-
-    }
+   
 }
 .card {
  background-color: #1e2e41;
@@ -104,14 +100,11 @@ h4:hover {
     background-color: #ffff;
 }
 .img:hover {
-    filter: saturate(170%);
+    filter: saturate(150%);
 
 }
 .img {
     width: 100%;
     max-height: 25rem;
     border-radius: 15px;
- 
-
 }
-
