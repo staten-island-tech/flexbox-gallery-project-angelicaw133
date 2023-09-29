@@ -22,6 +22,7 @@ body {
     text-align: center;
     flex-wrap: wrap;
     font-size: 3rem;
+    margin: 1.8rem;
    
 }
 
@@ -35,18 +36,32 @@ h1  {
     filter: drop-shadow(1.5rem 1.5rem);
     border-radius: 20px;
     border: #1e2e41 ;
+    animation: slidein 3s;
+}
+@keyframes slidein {
+    from {
+        transform: translateY(-20vh);
+        background-color: #fff;
+      
+      }
+      to {
+        transform: translateY(0);
 
+    }
+    100% {
+       left: 100%;
+       top: 100%;
 
-    
+    }
 }
 .card {
  background-color: #1e2e41;
- width: 20vw;
+ width: 18vw;
  height: 40vh;
  align-items: center;
  justify-content: space-around;
  padding: 1rem;
- margin: 3rem;
+ margin: 2.8rem;
  border-radius: 20px;
  filter: drop-shadow(1rem 1rem);
  }
@@ -70,9 +85,11 @@ h4 {
     
 }
 .card:hover {
-    transform: scale(1.2);
+    transform: scale(1.15);
 
 }
+
+
 h1:hover {
     transform: scale(1.5, 1);
 }
